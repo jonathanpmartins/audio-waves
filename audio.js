@@ -39,6 +39,11 @@ var mesh
 var gl
 
 function init() {
+
+  $('canvas').click(function(){
+    $(document).toggleFullScreen();
+  });
+  
   //var source = $('<source src="'+song_url+'" type="audio/mpeg">');
 
   var source = $('<source src="03.mp3" type="audio/mpeg">');
@@ -106,7 +111,7 @@ function render() {
   mesh.buffer.update(lines)
   mesh.sides.update(sides)
   mesh.vao.bind()
-  gl.lineWidth(4)
+  gl.lineWidth(2)
   gl.drawArrays(gl.LINE_STRIP, 0, mesh.length)
   mesh.vao.unbind()
 }
