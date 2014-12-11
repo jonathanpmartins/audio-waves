@@ -7,6 +7,6 @@ gulp.task('uglify-js', function() {
         'public/bundle.js'
     ])
     //.pipe(concat('public/all.min.js', {newLine: ';'}))
-    //.pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('public/'));
 });
