@@ -3,9 +3,6 @@
   <head>
     <title>Waves Eletronic Music</title>
     <style type="text/css">
-/*    .npm-scb-white{
-      display: none;
-    }    */
     #audio{
     	z-index: 2;
     	position: absolute;
