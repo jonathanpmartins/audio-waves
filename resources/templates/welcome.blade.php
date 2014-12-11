@@ -3,12 +3,15 @@
   <head>
     <title>Waves Eletronic Music</title>
     <style type="text/css">
-    .npm-scb-white{
-    	display: none;
-    }
+/*    .npm-scb-white{
+      display: none;
+    }    */
     #audio{
     	z-index: 2;
     	position: absolute;
+      width: 300px;
+      left: 50%;
+      margin-left: -150px;
     }
     </style>
   </head>
