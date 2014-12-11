@@ -43,10 +43,10 @@ function init() {
   $('canvas').click(function(){
     $(document).toggleFullScreen();
   });
-  
+
   //var source = $('<source src="'+song_url+'" type="audio/mpeg">');
 
-  var source = $('<source src="03.mp3" type="audio/mpeg">');
+  var source = $('<source src="02.mp3" type="audio/mpeg">');
 
   var audio  = new Audio
   source.appendTo(audio);
