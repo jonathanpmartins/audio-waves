@@ -11,7 +11,7 @@ var glnow        = require('gl-now')
 var mat4         = GLMatrix.mat4
 var shell
 
-require('web-audio-analyser/node_modules/soundcloud-badge')({
+require('soundcloud-badge')({
     client_id: 'ded451c6d8f9ff1c62f72523f49dab68'
   , song: 'https://soundcloud.com/moon_music/hydrogen'
   , dark: false
